@@ -1,15 +1,15 @@
 module.exports = {
   siteMetadata: {
-    siteTitle: `@rocketseat/gatsby-theme-docs`,
-    defaultTitle: `@rocketseat/gatsby-theme-docs`,
-    siteTitleShort: `gatsby-theme-docs`,
-    siteDescription: `Out of the box Gatsby Theme for creating documentation websites easily and quickly`,
-    siteUrl: `https://rocketdocs.netlify.com`,
-    siteAuthor: `@rocketseat`,
+    siteTitle: `ParenCast Docs`,
+    defaultTitle: `ParenCast Docs`,
+    siteTitleShort: `parencast-docs`,
+    siteDescription: `The document for ParenCast, a JavaScript flavored LISP dialect.`,
+    siteUrl: `https://ksryy.github.io/parencast-docs`,
+    siteAuthor: `KsRyY`,
     siteImage: `/banner.png`,
     siteLanguage: `en`,
     themeColor: `#7159c1`,
-    footer: `Theme by Rocketseat`,
+    footer: `Website Theme by Rocketseat`,
   },
   plugins: [
     {
@@ -22,8 +22,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Rocketseat Gatsby Themes`,
-        short_name: `RS Gatsby Themes`,
+        name: `ParenCast Docs`,
+        short_name: `ParenCast Docs`,
         start_url: `/`,
         background_color: `#ffffff`,
         display: `standalone`,
@@ -32,15 +32,9 @@ module.exports = {
     },
     `gatsby-plugin-sitemap`,
     {
-      resolve: `gatsby-plugin-google-analytics`,
-      options: {
-        trackingId: `UA-99997611-9`,
-      },
-    },
-    {
       resolve: `gatsby-plugin-canonical-urls`,
       options: {
-        siteUrl: `https://rocketdocs.netlify.com`,
+        siteUrl: `https://ksryy.github.io/parencast-docs`,
       },
     },
     `gatsby-plugin-offline`,
