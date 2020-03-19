@@ -1,9 +1,8 @@
 {
-  "name": "gatsby-starter-rocket-docs",
+  "name": "parencast-docs",
   "private": true,
   "version": "1.0.0",
-  "description": "Out of the box Gatsby Starter for creating documentation websites easily and quickly. With support for MDX, code highlight, Analytics, SEO and more",
-  "author": "João Pedro Schmitz <oi@joaopedro.cc> (@joaopedro_cc)",
+  "description": "The document for ParenCast, a JavaScript flavored LISP dialect",
   "license": "MIT",
   "starter-name": "gatsby-starter-rocket-docs",
   "dependencies": {
